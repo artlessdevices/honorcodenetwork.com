@@ -1,0 +1,3 @@
+#!/bin/bash
+SITE=honorcodenetwork.com
+scp index.html styles.css "$SITE:/var/www/$SITE"
